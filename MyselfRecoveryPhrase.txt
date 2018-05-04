@@ -1,0 +1,31 @@
+使用Parity建立Proof-of-Authority (PoA) Ethereum Chain
+----------------------------------------------------
+
+PoA Chain特點有
+
+    有別於PoW (Proof-of-Work)需要解數學難題來產生block，PoA是依靠預設好的Authority nodes，負責產生block。
+    可依照需求設定Authority node數量。
+    可指定產生block的時間，例如收到交易的5秒後產生block。
+    一般的Ethereum node也可以連接到PoA Chain，正常發起transactions, contracts等。
+
+Reference:
+----------
+https://medium.com/taipei-ethereum-meetup/%E4%BD%BF%E7%94%A8parity%E5%BB%BA%E7%AB%8Bproof-of-authority-poa-ethereum-chain-c5c1cdd0f21a
+
+node 0:
+shaky surfacing alkaline linseed navigator pushup coagulant sprain feisty glaring browbeat laborious
+0x00cBA60f74733061f2777Aa9250Ea1d3F102757c
+
+had asparagus mounted boogeyman wise finlike pleading dayroom unfailing always endearing shimmer
+0x00bD49d7Fa557d7515F7E07fBcEa353d13dC1159
+
+node 1:
+abiding fester dares mutilator jaws pregame balance carpentry brunt kelp grader dedicator
+0x00D02CFe33C8Db1b70F64d8B18e13839B6E25262
+
+Summary:
+--------
+1. Develop a smart contract and deploy in Remix-IDE env, TestRPM + nodejs env, and geth + nodejs env, particularly, 
+   geth + nodejs also demo how to setup private ethereum chain network;
+2. Mist (Wallet) program to connect to testnet Ropsten;
+
